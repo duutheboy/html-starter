@@ -1,0 +1,121 @@
+  <!DOCTYPE html>
+
+<!--HEAD= CONFIGURAÇÃO DA PÁGINA-->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo da Aba</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- Cabeçalho -->
+<header>
+    <h2>Teste HTML</h2>
+</header>
+ <!-- Barra de navegação -->
+ <nav>
+    <a href="https://twitter.com/home">Twitter</a>
+    <a href="https://github.com/">Github</a>
+ </nav>
+
+
+<!-- body = elementos da tela-->
+<body style="padding-bottom:500px">
+    <h1 id="titulo">Título</h1>
+    <p><strong>"Strong" </strong>para deixar a palavra em Negrito</p>
+    <p><em>"em" </em>para deixar o a palavra em itálico</p>
+
+    <!-- images e links -->
+    
+    <img src="foto cachorro.webp" alt="Cachorro sorrindo">
+    <h3>Links</h3>
+    <a href="https://www.youtube.com.br">Youtube</a>
+    <br>
+    <a href="https://twitter.com/duduardodudu">Meu Twitter</a>
+
+    <!-- Listas -->
+    
+    
+    <!-- Listas sem ordens -->
+    <h3>Lista de Tarefas</h3>
+    <ul>
+        <li class="item">Comer</li>
+        <li class="item">Treinar</li>
+        <li class="item">Estudar</li>
+    </ul>
+
+    <!-- Listas ordenadas-->
+    <ol>
+        <li class="tarefa">Supino</li>
+        <li class="tarefa">Crucifixo</li>
+        <li class="tarefa">Triceps</li>
+    </ol>
+
+    <!-- Tabelas -->
+    <table>
+        <tr>
+            <th>Nome:</th>
+            <th>Profissão:</th>
+        </tr>
+        <tr>
+            <td>Eduardo</td>
+            <td>Programador</td>
+        </tr>
+        <tr>    
+            <td>Joao</td>
+            <td>Dentista</td>
+        </tr>
+
+    </table>
+
+    <!-- Formulários -->
+    
+<main>
+    <h3>Formulário</h3>
+    <form action="/processar_form.php" method="POST"> <!-- action = enviar formulário para / method post = cadastro / method get = buscar-->
+        <input type="text" name="nome_completo" placeholder="Digite seu Nome"> Nome
+        <br>
+        <input type="email" name="email" placeholder="Digite seu E-mail"> E-mail
+        <br>
+        <input type="password" name="senha" placeholder="Digite sua Senha"> Senha
+        <br>
+        <input type="date" name="data"> Data
+        <br>
+        <input type="number" name="numero">
+        <br>
+        
+        <br>
+        <textarea name="comentario" placeholder="Deixe um comentário"></textarea> 
+        <br>
+
+        
+        <!-- Elementos de seleção -->
+        <p>Selecione seu clube de coração</p>
+        <select name="time_coracao">
+            <option>Sport Recife</option>
+            <option>Santa Cruz</option>
+            <option>Nautico</option>
+        </select>
+
+
+        <!-- Botão de envio -->    
+        <input type="submit" value="enviar">
+
+    </form>
+</main>
+
+    <!-- Elemento de bloco -->
+    <div>
+        <h3>Obrigado por chegar até aqui</h3>
+         <p>=D</p>
+    </div>
+
+    <!-- rodapé -->
+    <footer>
+        <p class="marca">@2023 José Eduardo</p>
+    </footer>
+
+</body>
+</html>

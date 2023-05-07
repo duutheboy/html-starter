@@ -1,0 +1,33 @@
+
+/* css por tag */
+body {
+
+    background-color: rgb(196, 248, 255);
+}
+
+
+/* "." css por class */
+.tarefa { 
+    color: blueviolet;
+}
+
+.item {
+    color: rgb(9, 109, 109);
+}
+
+.marca {
+    color: aqua;
+}
+
+
+/* "#" css por id */
+#titulo {
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 110, 255);
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
